@@ -1,0 +1,7 @@
+interface:
+  display_name: "Auto Deploy CLI"
+  short_description: "Confirm needs, then deploy with the CLI."
+  default_prompt: "Use $auto-deploy-cli-skill to confirm the deployment request and deploy a static site through the auto-deploy-v2 CLI."
+
+policy:
+  allow_implicit_invocation: true
